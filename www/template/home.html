@@ -1,0 +1,12 @@
+
+<ion-view view-title="百度地图">
+    <ion-nav-buttons side="right" ng-click="login">
+        <button class="button">
+            签到
+        </button>
+    </ion-nav-buttons>
+    <ion-content >
+        <baidu-map options="mapOptions" class="baidumap" style="width: 100%; height: 500px;display: block;"></baidu-map>
+    </ion-content>
+    <button class="button button-block button-calm" ng-click="update()">更新</button>
+</ion-view>
